@@ -1,7 +1,52 @@
+/* Created by Alex Grant */
 body{
     background-color: cornsilk;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(images/tears-white-small.png);
+    
+}
+h1{
+    text-align:center;
+    text-shadow: 2px 1px red;
+    letter-spacing: 20px;
 }
 h2{
     background-color: black;
     color:cornsilk;
+}
+footer{
+    text-align:center;
+    font-style: italic;
+    font-size: 48px;
+    text-shadow: 20px 20px gray;
+    letter-spacing: 40px;
+}
+a:link, a:visited{
+    color:#722F30;
+}
+a:hover, a:active{
+    color: rgb(245,255,220);
+    text-decoration: none;
+    font-size: italic;
+}
+.prettywords{
+    font-style: italic;
+    color: midnightblue;
+    font-family: monospace;
+    font-size: 12pt;
+}
+.sigma{
+    text-align: center;
+    font-variant: small-caps;
+    color:midnightblue;
+    font-size:8pt;
+}
+.theVoices{
+    list-style-image: url(images/micon.gif);
+}
+.itsJustAMeans{
+    border-radius: 75%;
+    border: 1px solid black;
+    padding: 5px;
+    filter:grayscale(100%);
 }
